@@ -12,7 +12,7 @@ bot.on('ready', function () {
     console.log('Tritium connecté avec succés!');
     bot.user.setGame('[&help] Tritium Bot').catch(console.error)
 });
-bot.login('Mzg2OTY3NTY5OTc2MDAwNTEy.DQrTWg.kEf09mfElkPETBFvwLn3s3RRNV0');
+bot.login(process.env.BOT_TOKEN);
 
 bot.on('message', function (message) {
     let commandUsed =
