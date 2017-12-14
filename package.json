@@ -8,7 +8,10 @@
     "discord.js": "^11.2.1",
     "discord.js-arbitrary-ffmpeg": "^1.0.0",
     "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^3.2.2-3",
     "fs": "0.0.1-security",
+    "npm-install-peers": "^1.2.0",
+    "opusscript": "0.0.4",
     "request": "^2.83.0",
     "winston": "^2.4.0",
     "ytdl-core": "^0.18.3"
