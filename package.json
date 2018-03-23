@@ -5,6 +5,7 @@
   "main": "bot.js",
   "author": "TheAyos",
   "dependencies": {
+    "bluebird": "^3.5.1",
     "discord.js": "^11.2.1",
     "discord.js-arbitrary-ffmpeg": "^1.0.0",
     "ffmpeg": "0.0.4",
@@ -13,7 +14,10 @@
     "npm-install-peers": "^1.2.0",
     "opusscript": "0.0.4",
     "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "strip-indent": "^2.0.0",
     "winston": "^2.4.0",
+    "youtube-search": "^1.0.10",
     "ytdl-core": "^0.18.3"
   },
   "devDependencies": {},

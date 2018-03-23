@@ -3,13 +3,13 @@ const Command = require('./commands');
 
 var randnum = 0;
 
-module.exports = class Trash extends Command{
+module.exports = class Trash extends Command {
 
-    static match (message) {
+    static match(message) {
         return message.content.startsWith('&trash')
     }
 
-    static action (message) {
+    static action(message) {
         message.delete();
         random();
         console.log(randnum)
@@ -31,5 +31,5 @@ module.exports = class Trash extends Command{
 function random(min, max) {
     min = Math.ceil(0); //inclus
     max = Math.floor(3); //inclus
-    randnum = Math.floor(Math.random() * (max - min +1) + min)
+    randnum = Math.floor(Math.random() * (max - min + 1) + min)
 }
