@@ -48,11 +48,11 @@ bot.on('message', function (msg) {
 bot.on('ready', function () {
     console.log(`Tritium connecté avec succés sous le nom de ${bot.user.username} !`);
     console.log(`Serving ${bot.guilds.size} guilds and ${bot.users.size} users.`);
-    bot.user.setGame('[&help] Tritium Bot').catch(console.error)
+    bot.user.setGame('[&help] Tritium 2.0 Patch').catch(console.error)
 });
 
-//bot.login('qQjnWQzI81keKic22Z8r4lY3eF90h997');
-bot.login('Mzg2OTY3NTY5OTc2MDAwNTEy.DQrTWg.kEf09mfElkPETBFvwLn3s3RRNV0');
+//bot.login('NDI2NDQzNzAxOTUxMTM1NzQ0.DZhzVg.a4A4XXWR1o3DtTyWSNw9UgrzKxU');
+bot.login(process.env.BOT_TOKEN);
 
 bot.on('error', (e) => console.error(e));
 bot.on('warn', (e) => console.warn(e));
