@@ -22,7 +22,7 @@ module.exports = class Info extends Command {
 
             .addField("Created at", `${bot.user.createdAt}`, true)
 
-            .addField("Lien d'invitation", " --> :100: https://discordapp.com/oauth2/authorize?client_id=386967569976000512&scope=bot&permissions=2146958591")
+            .addField("Lien d'invitation", " --> :100: https://discordapp.com/oauth2/authorize?client_id=426443701951135744&scope=bot&permissions=2146958591")
 
             .setThumbnail(`${bot.user.avatarURL}`)
             .setFooter("TritiumBot © • Aujourd'hui à " + `${bot.user.time}`)
